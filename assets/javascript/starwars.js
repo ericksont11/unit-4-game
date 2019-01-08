@@ -814,6 +814,10 @@ $("#attack").click(function () {
         $("#CharacterTwo").css("position", "relative");
         $("#CharacterThree").css("position", "relative");
         $("#CharacterFour").css("position", "relative");
+        $("#CharacterOneText").show();
+        $("#CharacterTwoText").show();
+        $("#CharacterThreeText").show();
+        $("#CharacterFourText").show();
         $("#attack").html("Attack");
         $("#defeatedLuke").hide();
         $("#defeatedMace").hide();
@@ -845,6 +849,7 @@ $("#attack").click(function () {
         $("#CharacterTwo").hide();
         $("#CharacterThree").show();
         $("#CharacterFour").hide();
+        $("#CharacterThreeText").hide();
         $("#CharacterThree").css("margin-left", "42vw");
         $("#attack").show();
         restart = true;
@@ -859,6 +864,7 @@ $("#attack").click(function () {
         $("#CharacterTwo").show();
         $("#CharacterFour").hide();
         $("#CharacterTwo").css("margin-left", "42vw");
+        $("#CharacterTwoText").hide();
         restart = true;
         $("#attack").show();
         $("#attack").html("NEW GAME");
@@ -873,6 +879,7 @@ $("#attack").click(function () {
         $("#CharacterFour").show();
         $("#CharacterTwo").hide();
         $("#CharacterFour").css("margin-left", "42vw");
+        $("#CharacterFourText").hide();
         restart = true;
         $("#attack").show();
         $("#attack").html("NEW GAME");
@@ -890,6 +897,7 @@ $("#attack").click(function () {
         restart = true;
         $("#attack").show();
         $("#attack").html("NEW GAME");
+        $("#CharacterOnerText").hide();
 
     }
 
